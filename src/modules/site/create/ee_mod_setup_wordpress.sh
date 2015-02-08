@@ -7,7 +7,7 @@ function ee_mod_setup_wordpress()
 
 	# Download latest WordPress
 	ee_lib_echo "Downloading WordPress, please wait..."
-	cd /var/www/$EE_DOMAIN/htdocs && wp --allow-root core download &>> $EE_COMMAND_LOG \
+	cd /var/www/$EE_DOMAIN/htdocs && wp --allow-root core download --locale=en_GB &>> $EE_COMMAND_LOG \
 	|| ee_lib_error "Unable to download WordPress, exit status = " $?
 	
 	# Database setup
