@@ -126,4 +126,9 @@ function ee_mod_setup_wordpress()
 	ee_lib_echo "Updating WordPress time-zone, please wait..."
 	wp option update --allow-root timezone_string Europe/London &>> $EE_COMMAND_LOG \
 	|| ee_lib_error "Unable to update WordPress timezone to Europe/London for $EE_DOMAIN, exit status = " $?
+	
+	# Update WordPress time format to HH:MM
+	ee_lib_echo "Updating WordPress time format, please wait..."
+	wp option update --allow-root time_format H:i &>> $EE_COMMAND_LOG \
+	|| ee_lib_error "Unable to update WordPress time format to H:i (HH:MM) for $EE_DOMAIN, exit status = " $?
 }
