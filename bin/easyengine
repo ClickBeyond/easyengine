@@ -464,6 +464,9 @@ elif [ "$EE_FIRST" = "site" ]; then
 					ee_mod_setup_network
 				fi
 
+				# Delete default plugins
+				ee_mod_plugin_delete_default
+
 				# Install WordPress plugins
 				ee_mod_plugin_nginx_helper
 
@@ -636,8 +639,11 @@ elif [ "$EE_FIRST" = "site" ]; then
 					ee_mod_setup_network
 				fi
 
-				# Install WordPress plugins
+				# Configure WordPress plugins
 				if [ "$EE_SITE_CREATE_OPTION" = "--wp" ] || [ "$EE_SITE_CREATE_OPTION" = "--wpsubdomain" ] || [ "$EE_SITE_CREATE_OPTION" = "--wpsubdir" ]; then
+					# Delete default plugins
+					ee_mod_plugin_delete_default
+					# Install plugins
 					ee_mod_plugin_nginx_helper
 				fi
 
