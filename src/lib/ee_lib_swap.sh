@@ -3,8 +3,7 @@
 function ee_lib_swap()
 {
 	if [ $EE_TOTAL_RAM -le 8192 ]; then
-		if [ $EE_TOTAL_SWAP -le $EE_SWAP ];then
-
+		if [ $EE_TOTAL_SWAP -eq 0 ];then
 			# Use fallocate command to create SWAP
 			# Swap Parameters:
 			# Size: Controlled by EE_SWAP (Dependant on RAM)
