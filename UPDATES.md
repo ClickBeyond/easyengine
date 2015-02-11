@@ -9,6 +9,7 @@ This file documents the modifications made to the [EasyEngine Github project](ht
 - Set the WordPress permalink structure to `/%postname%/` instead of `/%year%/%monthnum%/%day%/%postname%/`.
 - Change the WordPress time-zone to Europe/London.
 - Change the WordPress time format to HH:MM.
+- Delete pre-installed plugins: `Akismet` and `Hello Dolly`.
 
 ## Swap File
 
