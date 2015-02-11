@@ -117,8 +117,8 @@ function ee_mod_setup_wordpress()
 	--admin_name="$EE_WP_USER" --admin_password=$EE_WP_PASS --admin_email=$EE_WP_EMAIL &>> $EE_COMMAND_LOG \
 	|| ee_lib_error "Unable to create WordPress tables for $EE_DOMAIN, exit status = " $?
 	
-	# Update WordPress permalink structure day and postname
+	# Update WordPress permalink structure to postname
 	ee_lib_echo "Updating WordPress permalink, please wait..."
-	wp rewrite structure --allow-root /%year%/%monthnum%/%day%/%postname%/ &>> $EE_COMMAND_LOG \
+	wp rewrite structure --allow-root /%postname%/ &>> $EE_COMMAND_LOG \
 	|| ee_lib_error "Unable to update WordPress permalink for $EE_DOMAIN, exit status = " $?
 }
