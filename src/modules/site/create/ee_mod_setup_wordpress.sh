@@ -121,4 +121,9 @@ function ee_mod_setup_wordpress()
 	ee_lib_echo "Updating WordPress permalink, please wait..."
 	wp rewrite structure --allow-root /%postname%/ &>> $EE_COMMAND_LOG \
 	|| ee_lib_error "Unable to update WordPress permalink for $EE_DOMAIN, exit status = " $?
+	
+	# Update WordPress time-zone to Europe/London
+	ee_lib_echo "Updating WordPress time-zone, please wait..."
+	wp option update --allow-root timezone_string Europe/London &>> $EE_COMMAND_LOG \
+	|| ee_lib_error "Unable to update WordPress timezone to Europe/London for $EE_DOMAIN, exit status = " $?
 }
