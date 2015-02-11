@@ -23,7 +23,7 @@ function ee_lib_echo_fail()
 # Checking permissions
 if [[ $EUID -ne 0 ]]; then
 	ee_lib_echo_fail "Sudo privilege required..."
-	ee_lib_echo_fail "Uses: wget -qO ee rt.cx/ee && sudo bash ee"
+	ee_lib_echo_fail "Uses: wget -qO ee https://raw.githubusercontent.com/ClickBeyond/easyengine/stable/bin/install && sudo bash ee"
 	exit 1
 fi
 
