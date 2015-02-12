@@ -471,6 +471,7 @@ elif [ "$EE_FIRST" = "site" ]; then
 				ee_mod_plugin_uninstall_default
 
 				# Install WordPress plugins
+				ee_mod_plugin_custom_install
 				ee_mod_plugin_nginx_helper
 
 				if [ "$EE_SITE_CACHE_OPTION" = "--wpsc" ]; then
@@ -651,6 +652,7 @@ elif [ "$EE_FIRST" = "site" ]; then
 					ee_mod_plugin_uninstall_default
 					
 					# Install plugins
+					ee_mod_plugin_custom_install
 					ee_mod_plugin_nginx_helper
 				fi
 
