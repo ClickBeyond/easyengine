@@ -4,7 +4,7 @@ This file lists the changes made to the [ClickBeyond fork](https://github.com/Cl
 
 ## v2.2.3.3 [11-Feb-2015]
 - Fixed duplicate swap file error.
-- Delete pre-installed plugins: `Akismet` and `Hello Dolly`.
+- Uninstall default plugins: `Akismet` and `Hello Dolly`.
 
 ## v2.2.3.2 [11-Feb-2015]
 - Fix missing references to the ClickBeyond repo.
