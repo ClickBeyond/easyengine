@@ -2,6 +2,20 @@
 
 This file lists the changes made to the [ClickBeyond fork](https://github.com/ClickBeyond/easyengine) of the [EasyEngine project](https://github.com/rtCamp/easyengine).
 
+## v2.2.3.4 [12-Feb-2015]
+- Delete default themes: `Twenty Fourteen` and `Twenty Thirteen`.
+- Download and install plugins: 
+	- [BackWPup](https://wordpress.org/plugins/backwpup/)
+	- [CloudFlare](https://wordpress.org/plugins/cloudflare/)
+	- [Disable Feeds](https://wordpress.org/plugins/disable-feeds/)
+	- [Duplicate Post](https://wordpress.org/plugins/duplicate-post/)
+	- [Now! plugin for AdSense](https://wordpress.org/plugins/adsense-now-lite/)
+	- [Pretty Link Lite](https://wordpress.org/plugins/pretty-link/)
+	- [Schema Creator by Raven](https://wordpress.org/plugins/schema-creator/)
+	- [WordPress Importer](https://wordpress.org/plugins/wordpress-importer/)
+	- [WordPress SEO by Yoast](https://wordpress.org/plugins/wordpress-seo/)
+	- [WP-Piwik](https://wordpress.org/plugins/wp-piwik/)
+
 ## v2.2.3.3 [11-Feb-2015]
 - Fixed duplicate swap file error.
 - Uninstall default plugins: `Akismet` and `Hello Dolly`.
