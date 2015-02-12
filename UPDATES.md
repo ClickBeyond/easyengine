@@ -9,7 +9,25 @@ This file documents the modifications made to the [EasyEngine Github project](ht
 - Set the WordPress permalink structure to `/%postname%/` instead of `/%year%/%monthnum%/%day%/%postname%/`.
 - Change the WordPress time-zone to Europe/London.
 - Change the WordPress time format to HH:MM.
-- Delete pre-installed plugins: `Akismet` and `Hello Dolly`.
+
+### ee_mod_plugin_uninstall_default.sh
+- Uninstall default plugins: `Akismet` and `Hello Dolly`.
+
+### ee_mod_theme_delete_default.sh
+- Delete default themes: `Twenty Fourteen` and `Twenty Thirteen`.
+
+### ee_mod_plugin_custom_install.sh
+- Download and install plugins: 
+	- [BackWPup](https://wordpress.org/plugins/backwpup/)
+	- [CloudFlare](https://wordpress.org/plugins/cloudflare/)
+	- [Disable Feeds](https://wordpress.org/plugins/disable-feeds/)
+	- [Duplicate Post](https://wordpress.org/plugins/duplicate-post/)
+	- [Now! plugin for AdSense](https://wordpress.org/plugins/adsense-now-lite/)
+	- [Pretty Link Lite](https://wordpress.org/plugins/pretty-link/)
+	- [Schema Creator by Raven](https://wordpress.org/plugins/schema-creator/)
+	- [WordPress Importer](https://wordpress.org/plugins/wordpress-importer/)
+	- [WordPress SEO by Yoast](https://wordpress.org/plugins/wordpress-seo/)
+	- [WP-Piwik](https://wordpress.org/plugins/wp-piwik/)
 
 ## Swap File
 
