@@ -2,6 +2,9 @@
 
 This file lists the changes made to the [ClickBeyond fork](https://github.com/ClickBeyond/easyengine) of the [EasyEngine project](https://github.com/rtCamp/easyengine).
 
+## v2.2.3.5 [24-Feb-2015]
+- Fix Twenty Thirteen theme not being deleted during installation.
+
 ## v2.2.3.4 [12-Feb-2015]
 - Delete default themes: `Twenty Fourteen` and `Twenty Thirteen`.
 - Download and install plugins: 
