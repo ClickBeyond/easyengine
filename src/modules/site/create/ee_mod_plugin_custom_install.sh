@@ -13,4 +13,5 @@ function ee_mod_plugin_custom_install()
 	ee_mod_plugin_wordpress_importer
 	ee_mod_plugin_wordpress_seo
 	ee_mod_plugin_wp_piwik
+	ee_mod_plugin_wp_sync_db
 }
