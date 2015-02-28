@@ -27,6 +27,7 @@ This file documents the modifications made to the [EasyEngine Github project](ht
 	- [Schema Creator by Raven](https://wordpress.org/plugins/schema-creator/)
 	- [WordPress Importer](https://wordpress.org/plugins/wordpress-importer/)
 	- [WordPress SEO by Yoast](https://wordpress.org/plugins/wordpress-seo/)
+	- [WP Sync DB](https://github.com/wp-sync-db/wp-sync-db)
 	- [WP-Piwik](https://wordpress.org/plugins/wp-piwik/)
 
 ## Swap File

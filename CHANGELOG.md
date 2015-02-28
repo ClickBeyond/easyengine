@@ -2,6 +2,10 @@
 
 This file lists the changes made to the [ClickBeyond fork](https://github.com/ClickBeyond/easyengine) of the [EasyEngine project](https://github.com/rtCamp/easyengine).
 
+## v2.2.3.6 [28-Feb-2015]
+- Download and install plugin: 
+	- [WP Sync DB](https://github.com/wp-sync-db/wp-sync-db)
+
 ## v2.2.3.5 [24-Feb-2015]
 - Fix Twenty Thirteen theme not being deleted during installation.
 
